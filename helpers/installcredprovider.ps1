@@ -180,6 +180,6 @@ Copy-Item $tempNetcorePath -Destination $fullNetcoreCredProviderPath -Force -Rec
 
 # Remove $tempZipLocation directory
 Write-Verbose "Removing the Credential Provider temp directory $tempZipLocation"
-Remove-Item $tempZipLocation -Force -Recurse
+#Remove-Item $tempZipLocation -Force -Recurse
 
 Write-Host "Credential Provider installed successfully"
